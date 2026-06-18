@@ -5,9 +5,11 @@
  * expected by the nf-core/cellpainting pipeline.
  *
  * Example:
- *   nextflow run convert_manifest.nf \
- *     --input /path/to/01_manifest \
- *     --out samplesheet.csv
+  nextflow run convert_manifest.nf \
+     --input /nfs/research/ewald/ouyang/2026_MorphProfBenchmark/00_Single_Cell_feature_extraction/datasets/phh_dinov2/01_manifest \
+     --out samplesheet.csv \
+    --source Axiom 
+
  */
 
 nextflow.enable.dsl = 2
